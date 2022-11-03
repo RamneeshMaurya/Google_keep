@@ -3,7 +3,7 @@ const Header = () => {
     return ( <
         div className = "header" >
         <
-        h1 className = "h" > NOVA < /h1> <
+        h1 className = "h" > Google Keep < /h1> <
         /div>
     );
 };
