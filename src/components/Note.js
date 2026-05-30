@@ -1,6 +1,5 @@
 import { MdDeleteForever } from 'react-icons/md';
 import { FaPencilAlt } from 'react-icons/fa';
-import EditNote from './EditNote';
 
 
 

@@ -3,8 +3,6 @@ import { nanoid } from 'nanoid';
 import NotesList from "./components/NotesList";
 import Search from './components/Search';
 import Header from './components/Header';
-import Note from './components/Note';
-import EditNote from './components/EditNote';
 
 const App = () => {
     const [notes, setNotes] = useState([{
@@ -51,17 +49,9 @@ const App = () => {
         );
     }, [notes]);
 
-    const editNote = (text) => {
-        const date = new Date();
-        const newNote = {
-            id: nanoid(),
-            text: text,
-            date: date.toLocaleDateString(),
-        };
-        const newNotes = [...notes, newNote];
-        setNotes(newNotes);
+   
 
-    };
+    
 
     const addNote = (text) => {
         const date = new Date();
@@ -80,7 +70,7 @@ const App = () => {
     }
 
     return ( <
-        div className = "container" >
+         div className = "container" >
         <
         Header / >
         <
