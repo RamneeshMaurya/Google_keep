@@ -7,17 +7,17 @@ import Header from './components/Header';
 const App = () => {
     const [notes, setNotes] = useState([{
                 id: nanoid(),
-                text: "this is NOVA project.. ",
+                text: "this is NOVA project v2.. ",
                 date: "22/09/2022",
             },
             {
                 id: nanoid(),
-                text: "this is NOVA project....",
+                text: "this is NOVA project v2....",
                 date: "22/09/2022",
             },
             {
                 id: nanoid(),
-                text: "this is NOVA project.....",
+                text: "this is NOVA project v2.....",
                 date: "22/09/2022",
             },
             {
